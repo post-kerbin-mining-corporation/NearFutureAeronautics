@@ -1,0 +1,4 @@
+v.1.0.0
+-------
+- KSP 1.4.5
+- Split pack: extracted engine, intake, generic fuselage parts from MkIV system
