@@ -2,3 +2,10 @@ v.1.0.0
 -------
 - KSP 1.4.5
 - Split pack: extracted engine, intake, generic fuselage parts from MkIV system
+- Fixes to some localization strings
+- Renamed a few parts for parts list consistency
+- New parts:
+ - LT-40 'Hornet' VTOL Hyrbid Engine: higher-thrust 1.25m VTOL engine
+ - AVX-20 Heavy Engine Pod: Large engine pod supporting 2.5m engines
+ - N-160 'Fireflash' Air-Breathing Nuclear Engine
+ - N-500 'Project Eeloo' Multimode Nuclear Engine
