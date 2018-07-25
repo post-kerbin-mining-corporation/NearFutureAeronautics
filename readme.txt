@@ -1,5 +1,5 @@
 ==============================
-Near Future Aeronautics v3.0.0
+Near Future Aeronautics v1.0.0
 ==============================
 
 This is a parts pack for Kerbal Space Program v1.4.5 which provides advanced aerospace parts such as air intakes, jets, propellers, multimode engines and various accessories
@@ -17,7 +17,6 @@ Required:
 
 Optional
 - Community Tech Tree (v2.2+)
-- Raster Prop Monitor(v0.29.2) plus ASET Props (1.4)
 
 ============
 INSTALLATION
