@@ -22,7 +22,7 @@ Optional
 INSTALLATION
 ============
 
-To install, place the GameData folder inside your Kerbal Space Program folder. If asked to overwrite files, please do so. REMOVE ANY OLD VERSIONS OF THE MARK IV SYSTEM BEFORE INSTALLING.
+To install, place the GameData folder inside your Kerbal Space Program folder. If asked to overwrite files, please do so.
 
 ============
 KSP-MINI-AVC
