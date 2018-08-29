@@ -1,13 +1,16 @@
 v.1.0.0
 -------
 - KSP 1.4.5
-- Split pack: extracted engine, intake, generic fuselage parts from MkIV system
+- Split pack: extracted engine, intake, generic fuselage parts from MkIV System
 - Fixes to some localization strings
 - Removed Kerboshvev as a manufacturer
 - Renamed a few parts for parts list consistency
 - Adjusted Arcadia's stats: now more like a slightly better Panther
+- Reworked textures for entire part catalog
+- Redid FX for most engines
 - New parts:
- - LT-40 'Hornet' VTOL Hyrbid Engine: higher-thrust 1.25m VTOL engine
+ - JL-40 'Hornet' VTOL Engine: higher-thrust VTOL engine
  - AVX-20 Heavy Engine Pod: Large engine pod supporting 2.5m engines
- - N-160 'Fireflash' Air-Breathing Nuclear Engine
- - N-500 'Project Eeloo' Multimode Nuclear Engine
+ - Advanced Ram Intake: 2.5m ram-style intake
+ - J-N160 'Fireflash' Air-Breathing Nuclear Engine: atmosphere-only engine - similar envelope to a turbojet
+ - J-N500 'Project Eeloo' Multimode Nuclear Engine: atmosphere only or lf-only
