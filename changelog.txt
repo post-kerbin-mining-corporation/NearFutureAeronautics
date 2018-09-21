@@ -1,3 +1,9 @@
+v.1.0.1
+-------
+- Added WBIHoverController to appropriate engines to allow VTOL to be easier
+- Reduced the scope of IntakeAtm patch
+- Fixed engine sound playback of Yellowjacket, Hornet
+
 v.1.0.0
 -------
 - KSP 1.4.5
