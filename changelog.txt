@@ -4,6 +4,7 @@ v.1.0.2
 - Updated MM to 3.1.0
 - Updated B9PartSwitch to 2.4.5
 - Removed MiniAVC distribution
+- Added Spanish translation (Sergi Ruiz Zarzuelo)
 
 v.1.0.1
 -------
