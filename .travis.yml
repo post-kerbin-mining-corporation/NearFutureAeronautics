@@ -1,0 +1,30 @@
+language: python
+script:
+  - python build_scripts/build.py
+before_deploy:
+  - VERSION=$(cat build_scripts/version.txt)
+  - echo $VERSION
+  - git config --local user.name "ChrisAdderley"
+  - git config --local user.email "cadderley@gmail.com"
+#  - git tag $VERSION
+deploy:
+  provider: s3
+  access_key_id: $S3_SECRET
+  secret_access_key: $S3_ACCESS_KEY
+  bucket: "nertea-ksp-modding-releases"
+  local_dir: deploy
+  skip_cleanup: true
+  acl: public_read
+  region: us-east-2
+  upload-dir: near-future-aeronautics
+
+
+
+#deploy:
+#  provider: releases
+#  api_key: $GITHUB_OAUTH_TOKEN
+#  file_glob: true
+#  file: deploy/*
+#  skip_cleanup: true
+#  on:
+#    tags: true

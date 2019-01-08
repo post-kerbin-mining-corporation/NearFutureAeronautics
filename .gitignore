@@ -1,0 +1,6 @@
+*.pyc
+.idea/
+build/
+tmp/
+deploy/
+version.txt
