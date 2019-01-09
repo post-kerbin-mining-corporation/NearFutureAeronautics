@@ -48,7 +48,7 @@ def build_extra(name, version_data):
 
 def collect_dependencies(dep_data):
     """Finds and downloads all dependencies"""
-    #clean_path(TEMP_PATH)
+    clean_path(TEMP_PATH)
     for name, info in dep_data.items():
         download_dependency(name, info, TEMP_PATH, BUILD_PATH)
     cleanup()
@@ -90,7 +90,7 @@ def bundle():
     build_full_release(version_data, build_data['mod_name'])
 
     # Write the version out for Travis deploy scripts to take advantage of
-    with open('version.txt', "w") as f:
+    with open(os.path.join("build_scripts", 'version.txt'), "w") as f:
       f.write(get_version(version_data))
 
 if __name__ == "__main__":

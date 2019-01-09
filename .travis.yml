@@ -1,4 +1,8 @@
 language: python
+python:
+  - 3.6
+install:
+  - pip install awscli boto3
 script:
   - python build_scripts/build.py
 before_deploy:
@@ -9,15 +13,16 @@ before_deploy:
 #  - git tag $VERSION
 deploy:
   provider: s3
-  access_key_id: $S3_SECRET
-  secret_access_key: $S3_ACCESS_KEY
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: "nertea-ksp-modding-releases"
   local_dir: deploy
   skip_cleanup: true
   acl: public_read
   region: us-east-2
   upload-dir: near-future-aeronautics
-
+  on:
+    all_branches: true
 
 
 #deploy:
