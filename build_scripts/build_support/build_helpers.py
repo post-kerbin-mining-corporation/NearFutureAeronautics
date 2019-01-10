@@ -1,6 +1,7 @@
 # Useful functions for build scripts
 import os
 import json
+import stat
 
 BUILD_SCRIPT_PATH = "build_scripts"
 BUILD_DATA_NAME = "build_data.json"
@@ -19,6 +20,10 @@ class tcolors:
 def get_version(version_data):
   """Returns a formatted version string from the version data dictionary"""
   return "{MAJOR}.{MINOR}.{PATCH}".format(**version_data["VERSION"])
+
+def get_ksp_version(version_data):
+  """Returns a formatted KSP version string from the version data dictionary"""
+  return "{MAJOR}.{MINOR}.{PATCH}".format(**version_data["KSP_VERSION"])
 
 def get_version_file_info(mod_name):
   """Extracts version info from the .version file"""

@@ -29,5 +29,13 @@
       "repository": "ChrisAdderley/DeployableEngines",
       "tag": "0.1.0"
     }
+  },
+  "spacedock":
+  {
+    "mod-id": 125
+  },
+  "curseforge":
+  {
+    "mod-id": "abcd"
   }
 }

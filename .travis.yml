@@ -2,7 +2,7 @@ language: python
 python:
   - 3.6
 install:
-  - pip install awscli boto3
+  - pip install awscli boto3 requests
 script:
   - python build_scripts/build.py
 before_deploy:
@@ -10,26 +10,36 @@ before_deploy:
   - echo $VERSION
   - git config --local user.name "ChrisAdderley"
   - git config --local user.email "cadderley@gmail.com"
-#  - git tag $VERSION
+  - git tag $VERSION
+#  - git push origin $VERSION
 deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
-  bucket: "nertea-ksp-modding-releases"
-  local_dir: deploy
-  skip_cleanup: true
-  acl: public_read
-  region: us-east-2
-  upload-dir: near-future-aeronautics
-  on:
-    all_branches: true
-
-
-#deploy:
-#  provider: releases
-#  api_key: $GITHUB_OAUTH_TOKEN
-#  file_glob: true
-#  file: deploy/*
-#  skip_cleanup: true
-#  on:
-#    tags: true
+  - provider: script
+    script: python build_scripts/deploy.py --curse
+    skip_cleanup: true
+    on:
+      all_branches: true
+  - provider: script
+    script: python build_scripts/deploy.py --spacedock
+    skip_cleanup: true
+    on:
+      all_branches: true
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: "nertea-ksp-modding-releases"
+    local_dir: deploy
+    skip_cleanup: true
+    acl: public_read
+    region: us-east-2
+    upload-dir: near-future-aeronautics
+    on:
+      all_branches: true
+#  - deploy:
+#    provider: releases
+#    api_key: $GITHUB_OAUTH_TOKEN
+#    file_glob: true
+#    file: deploy/*
+#    skip_cleanup: true
+#    on:
+#      tags: false
+#      all_branches: true
