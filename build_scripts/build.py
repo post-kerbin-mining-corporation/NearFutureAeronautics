@@ -27,7 +27,7 @@ def build_nodep_release(version_data, mod_name):
         mod_name (str): name of the mod
     """
     build_path = os.path.join(DEPLOY_PATH,
-        f"{mod_name}_Core_" + "{MAJOR}_{MINOR}_{PATCH}.zip".format(**version_data["VERSION"]))
+        f"{mod_name}_Core_" + "{MAJOR}_{MINOR}_{PATCH}".format(**version_data["VERSION"]))
     shutil.make_archive(build_path, 'zip', os.path.join(BUILD_PATH))
     print(f"> Built {build_path}")
 
@@ -40,7 +40,7 @@ def build_full_release(version_data, mod_name):
         mod_name (str): name of the mod
     """
     build_path = os.path.join(DEPLOY_PATH,
-        f"{mod_name}_" + "{MAJOR}_{MINOR}_{PATCH}.zip".format(**version_data["VERSION"]))
+        f"{mod_name}_" + "{MAJOR}_{MINOR}_{PATCH}".format(**version_data["VERSION"]))
     shutil.make_archive(build_path, 'zip', os.path.join(BUILD_PATH))
     print(f"> Built {build_path}")
 
@@ -65,7 +65,7 @@ def build_extra(name, version_data, build_package):
         version_data (dict): Contents of the .version file
         build_package (bool): whether to create an individual zipfile for the package
     """
-    extra_path = os.path.join(DEPLOY_PATH, f"{name}" + "{MAJOR}_{MINOR}_{PATCH}.zip".format(**version_data["VERSION"]))
+    extra_path = os.path.join(DEPLOY_PATH, f"{name}" + "{MAJOR}_{MINOR}_{PATCH}".format(**version_data["VERSION"]))
     print(f"> Compiling Extra {name}")
     ensure_path(os.path.join(BUILD_PATH,"Extras"))
     shutil.copytree(os.path.join("Extras", name), os.path.join(BUILD_PATH,"Extras", name))

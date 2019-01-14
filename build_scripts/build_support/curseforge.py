@@ -4,7 +4,7 @@ from contextlib import closing
 
 class CurseForgeAPI(object):
 
-    base_url = "https://ksp.curseforge.com"
+    base_url = "https://kerbal.curseforge.com"
     versions_url = "api/game/versions"
     upload_file_url = "api/projects/{mod_id}/upload-file"
 

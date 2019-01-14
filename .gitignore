@@ -3,4 +3,5 @@
 build/
 tmp/
 deploy/
-version.txt
+build_scripts/version.txt
+build_scripts/changelog.md
