@@ -135,9 +135,12 @@ def bundle(core_release, extras_release, complete_release):
         print(f"Building COMPLETE release package")
         build_full_release(version_data, build_data['mod_name'])
 
-    # Write the version out in text for Travis deploy scripts to take advantage of as env variables set are not persisted
+    # Write the version/changelog out in text for Travis deploy scripts to take advantage of as env variables set are not persisted
     with open(os.path.join("build_scripts", 'version.txt'), "w") as f:
       f.write(get_version(version_data))
+
+    with open(os.path.join("build_scripts", 'changelog.md'), "w") as f:
+      f.write(get_changelog())
 
 if __name__ == "__main__":
     parser = ArgumentParser()
