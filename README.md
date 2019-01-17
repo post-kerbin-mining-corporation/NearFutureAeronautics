@@ -10,7 +10,7 @@ A mod pack for Kerbal Space Program, part of the Near Future suite of mods.
 
 ## Features
 
-This mod features a number of new parts for spaceplanes and aircraft. 
+This mod features a number of new parts for spaceplanes and aircraft.
 
 * **Large Multimode Engines:** Big (2.5m), powerful RAPIER-like engines for your wildest spaceplane needs.
 * **Large Jet Engines:** Hefty 2.5m engines - turbofans and turbojets for big aircraft.
@@ -38,7 +38,7 @@ NOTE: Do NOT rename or move folders within the GameData folder - this mod uses a
 ## External Mod Compatibility
 
 This mod includes compatibility patches for the following mods:
-* [KSP-AVC](https://github.com/CYBUTEK/KSPAddonVersionChecker): Provides version checking 
+* [KSP-AVC](https://github.com/CYBUTEK/KSPAddonVersionChecker): Provides version checking
 * [Community Tech Tree](https://github.com/ChrisAdderley/CommunityTechTree): Provides an expanded, community-sourced technology tree for modders to use
 
 ## Contributing
@@ -47,8 +47,17 @@ I certainly accept pull requests. Please target all such things to the `dev` bra
 
 ## Licensing
 
-The configuration and code in this pack are distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). You are free to share and adapt the materials only for non-commercial purposes and when providing appropriate attribution. Any derivatives must be distributed under the same license.
+The art assets in this pack (all .dds, .png and .mu files) are distributed under an All Rights Reserved license. You may not redistribute or re-use these assets without express permission from the author.
 
-The art assets in this pack (all models and textures) are distributed under an All Rights Reserved License. You may not redistribute or re-use these assets without express permission from me.
+Any bundled mods are distributed under their own licenses:
+* ModuleManager by ialdabaoth and sarbian is distributed under a Creative Commons Sharealike license. More details, including source code, can be found here: http://forum.kerbalspaceprogram.com/threads/31342-0-20-ModuleManager-1-3-for-all-your-stock-modding-needs?p=528607&viewfull=1#post528607
+* The Community Resource Pack by RoverDude is also distributed under its own license. Please find source and more details at https://github.com/BobPalmer/CommunityResourcePack
+* B9PartSwitch by blowfish is also distributed under its own license. Please find source and more details at https://github.com/blowfishpro/B9PartSwitch
+* KerbalActuators is distributed under its own licence. Please find source code and more details at http://snjo.github.io/https://github.com/Angel-125/KerbalActuators
 
-Any bundled dependencies in the release packages are distributed under their own licenses
+Everything else is distributed under the MIT license.
+
+Copyright (c) 2019 Chris Adderley
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
