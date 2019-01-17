@@ -19,7 +19,7 @@
     },
     "KerbalActuators":
     {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "location": "s3",
       "gamedata-name": "WildBlueIndustries"
     },
