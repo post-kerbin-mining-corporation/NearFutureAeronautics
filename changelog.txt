@@ -1,3 +1,7 @@
+v.1.0.4
+-------
+- Fixed bulkhead profiles (thanks Streetwind)
+
 v.1.0.3
 -------
 - KSP 1.6.x
