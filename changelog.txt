@@ -1,3 +1,11 @@
+v.1.0.5
+-------
+- KSP 1.7.x
+- Updated bundled ModuleManager to 4.0.2
+- Updated bundled KerbalActuators to 1.7.2
+- Updated bundled DeployableEngines to 1.0.1
+- License change for non-art assets (MIT)
+
 v.1.0.4
 -------
 - Fixed bulkhead profiles (thanks Streetwind)

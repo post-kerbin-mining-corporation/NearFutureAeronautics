@@ -23,11 +23,11 @@ This mod features a number of new parts for spaceplanes and aircraft.
 
 ### Required
 These components are required for the mod to function and are bundled as part of any download:
-* [ModuleManager (3.1.0)](https://github.com/sarbian/ModuleManager)
-* [B9PartSwitch (2.4.5)](https://github.com/blowfishpro/B9PartSwitch)
-* [Community Resource Pack (0.10.0)](https://github.com/BobPalmer/CommunityResourcePack)
-* [KerbalActuators (1.6.0)](https://github.com/Angel-125/KerbalActuators)
-* [DeployableEngines (0.1.0)](https://github.com/ChrisAdderley/DeployableEngines)
+* [ModuleManager (4.0.2)](https://github.com/sarbian/ModuleManager)
+* [B9PartSwitch (2.6.0)](https://github.com/blowfishpro/B9PartSwitch)
+* [Community Resource Pack 1.0.0)](https://github.com/BobPalmer/CommunityResourcePack)
+* [KerbalActuators (1.7.1)](https://github.com/Angel-125/KerbalActuators)
+* [DeployableEngines (1.0.1)](https://github.com/ChrisAdderley/DeployableEngines)
 
 ## Installation
 

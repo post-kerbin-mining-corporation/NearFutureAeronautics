@@ -1,5 +1,5 @@
 ==============================
-Near Future Aeronautics v1.0.4
+Near Future Aeronautics v1.0.5
 ==============================
 
 This is a parts pack for Kerbal Space Program v1.4.5 which provides advanced aerospace parts such as air intakes, jets, propellers, multimode engines and various accessories
@@ -11,9 +11,9 @@ DEPENDENCIES
 Required:
 - B9PartSwitch (2.6.0)
 - Community Resource Pack (1.0.0)
-- ModuleManager (3.1.3)
+- ModuleManager (4.0.2)
 - KerbalActuators (1.7.0)
-- DeployableEngines (1.0.0)
+- DeployableEngines (1.0.1)
 
 Optional
 - Community Tech Tree (v2.2+)
