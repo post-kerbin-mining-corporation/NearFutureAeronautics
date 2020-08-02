@@ -8,10 +8,10 @@ package:
     - changelog.txt
 dependencies:  # Configure dependencies
   ModuleManager:
-    version: 4.0.2
+    version: 4.1.4
     location: s3
   B9PartSwitch:
-    version: 2.6.0
+    version: 2.17.0
     location: s3
   CommunityResourcePack:
     version: 1.0.0
@@ -20,7 +20,7 @@ dependencies:  # Configure dependencies
     version: 1.7.2
     location: s3
   DeployableEngines:
-    tag: 1.0.1
+    tag: 1.2.2
     location: github
     repository: ChrisAdderley/DeployableEngines
 deploy:
