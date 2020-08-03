@@ -14,10 +14,10 @@ dependencies:  # Configure dependencies
     version: 2.17.0
     location: s3
   CommunityResourcePack:
-    version: 1.0.0
+    version: 1.3.0
     location: s3
   WildBlueIndustries:
-    version: 1.7.2
+    version: 1.8.3
     location: s3
   DeployableEngines:
     tag: 1.2.2

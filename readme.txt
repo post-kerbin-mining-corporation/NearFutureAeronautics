@@ -10,10 +10,10 @@ DEPENDENCIES
 
 Required:
 - B9PartSwitch (2.17.0)
-- Community Resource Pack (1.0.0)
-- ModuleManager (4.0.2)
-- KerbalActuators (1.7.0)
-- DeployableEngines (1.0.1)
+- Community Resource Pack (1.3.0)
+- ModuleManager (4.1.4)
+- KerbalActuators (1.8.3)
+- DeployableEngines (1.2.2)
 
 Optional
 - Community Tech Tree (v2.2+)

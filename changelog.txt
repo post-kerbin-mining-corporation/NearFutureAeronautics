@@ -1,13 +1,14 @@
-v.1.1.0
+v.2.0.0
 -------
 - KSP 1.10.x
 - Updated bundled ModuleManager to 4.1.4
 - Updated bundled B9PartSwitch to 2.17.0
-- Updated bundled KerbalActuators to 1.7.2
+- Updated bundled KerbalActuators to 1.8.3
 - Updated bundled DeployableEngines to 1.2.2
 - Rebuilt all part files
 - Added normal maps to the Fireflash and Project Eeloo engines
 - Recompressed all textures with better compressor
+- Fixed fore/reverse thrust on propeller engines
 
 v.1.0.5
 -------

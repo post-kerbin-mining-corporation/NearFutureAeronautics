@@ -13,19 +13,17 @@
     },
     "depends" : [
         { "name" : "ModuleManager" },
-        { "name" : "B9PartSwitch" }
+        { "name" : "B9PartSwitch" },
+        { "name" : "DeployableEngines" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "KerbalActuators"}
                 ],
     "recommends" : [
-        {"name" : "CommunityTechTree" } ],
-    "suggests" : [
-        {"name" : "CryoEngines" },
-        {"name" : "KerbalAtomics" }
-                ],
+        {"name" : "CommunityTechTree" },
+        {"name" : "MarkIVSpaceplaneSystem"} ],
     "install" : [
-        { "find" : "NearFutureLaunchVehicles",
-          "install_to" : "GameData" },
-          { "find" : "WildBlueIndustries",
-            "install_to" : "GameData" }
+        { "find" : "NearFutureAeronautics",
+          "install_to" : "GameData" }
 
                 ]
 }
