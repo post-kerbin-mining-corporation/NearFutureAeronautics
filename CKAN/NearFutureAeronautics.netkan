@@ -1,7 +1,7 @@
 {
     "license": "restricted",
     "identifier": "NearFutureAeronautics",
-    "$kref": "#/ckan/spacedock/1434",
+    "$kref": "#/ckan/spacedock/1957",
     "$vref": "#/ckan/ksp-avc/GameData/NearFutureAeronautics/Versioning/NearFutureAeronautics.version",
     "spec_version": "v1.4",
     "name"                : "Near Future Aeronautics",
