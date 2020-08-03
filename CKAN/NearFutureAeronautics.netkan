@@ -1,0 +1,29 @@
+{
+    "license": "restricted",
+    "identifier": "NearFutureAeronautics",
+    "$kref": "#/ckan/spacedock/1434",
+    "$vref": "#/ckan/ksp-avc/GameData/NearFutureAeronautics/Versioning/NearFutureAeronautics.version",
+    "spec_version": "v1.4",
+    "name"                : "Near Future Aeronautics",
+    "abstract"            : "Advanced aerospace parts including intakes, propellers, jet/multimode/nuclear engines for gigantic spaceplanes. ",
+    "author"              : "Nertea",
+    "resources": {
+      "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155465-16x-near-future-technologies-16x-fixes-jan-21/",
+      "repository": "https://github.com/ChrisAdderley/NearFutureAeronautics"
+    },
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "B9PartSwitch" },
+        { "name" : "DeployableEngines" },
+        { "name" : "CommunityResourcePack" },
+        { "name" : "KerbalActuators"}
+                ],
+    "recommends" : [
+        {"name" : "CommunityTechTree" },
+        {"name" : "MarkIVSpaceplaneSystem"} ],
+    "install" : [
+        { "find" : "NearFutureAeronautics",
+          "install_to" : "GameData" }
+
+                ]
+}
