@@ -1,3 +1,14 @@
+v.2.1.0
+-------
+- KSP 1.11.x
+- Updated bundled KerbalActuators to 1.8.3
+- Updated bundled DeployableEngines to 1.2.3
+- Updated CRP to 1.4.2
+- Made a few parts usable with the inventory system
+- Buffed nuclear jet engine static thrust at low speeds by ~30%
+- Fixed HVR-TWO colliders
+- Fixed endcap separation on most engines
+
 v.2.0.0
 -------
 - KSP 1.10.x

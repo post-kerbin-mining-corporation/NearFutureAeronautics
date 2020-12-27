@@ -6,10 +6,10 @@
     "spec_version": "v1.4",
     "name"                : "Near Future Aeronautics",
     "abstract"            : "Advanced aerospace parts including intakes, propellers, jet/multimode/nuclear engines for gigantic spaceplanes. ",
-    "author"              : "Nertea",
+    "author"              : "Nertea (Chris Adderley)",
     "resources": {
       "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155465-16x-near-future-technologies-16x-fixes-jan-21/",
-      "repository": "https://github.com/ChrisAdderley/NearFutureAeronautics"
+      "repository": "https://github.com/post-kerbin-mining-corporation/NearFutureAeronautics"
     },
     "depends" : [
         { "name" : "ModuleManager" },
