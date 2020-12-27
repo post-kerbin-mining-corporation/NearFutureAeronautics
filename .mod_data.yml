@@ -14,15 +14,15 @@ dependencies:  # Configure dependencies
     version: 2.17.0
     location: s3
   CommunityResourcePack:
-    version: 1.3.0
+    version: 1.4.2
     location: s3
   WildBlueIndustries:
     version: 1.8.3
     location: s3
   DeployableEngines:
-    tag: 1.2.2
+    tag: 1.2.3
     location: github
-    repository: ChrisAdderley/DeployableEngines
+    repository: post-kerbin-mining-corporation/DeployableEngines
 deploy:
   SpaceDock:
     enabled: false  # activate/deactivate this deployment script
