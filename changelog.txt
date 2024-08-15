@@ -8,6 +8,8 @@ v.2.1.2
  - Increased tolerance for Electrical Drive mode's operations in low flow conditions
  - Adjusted drag cubes of parts to make them a little less 'opaque' to air
 - VABOrganizer support
+- Added Chinese localization (tinygrox)
+- Added French localization (ValiusV)
 
 v.2.1.1
 -------
