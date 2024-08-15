@@ -8,16 +8,16 @@ package:
     - changelog.txt
 dependencies:  # Configure dependencies
   ModuleManager:
-    version: 4.1.4
+    version: 4.2.3
     location: s3
   B9PartSwitch:
-    version: 2.18.0
+    version: 2.20.0
     location: s3
   CommunityResourcePack:
     version: 1.4.2
     location: s3
   WildBlueIndustries:
-    version: 1.8.3
+    version: 1.9.0
     location: s3
   DeployableEngines:
     tag: 1.3.1
