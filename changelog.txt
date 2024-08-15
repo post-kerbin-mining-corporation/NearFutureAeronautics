@@ -1,3 +1,14 @@
+v.2.1.2
+-------
+- Updated bundled KerbalActuators to 1.9.0
+- Updated bundled ModuleManager to 4.2.3
+- Updated bundled B9PartSwitch to 2.20.0
+- Changes to Lift Fan tuning
+ - Adjusted atmosphere flow curves to allow Electrical Drive mode to operate down to ~0.03 atm (badly)
+ - Increased tolerance for Electrical Drive mode's operations in low flow conditions
+ - Adjusted drag cubes of parts to make them a little less 'opaque' to air
+- VABOrganizer support
+
 v.2.1.1
 -------
 - KSP 1.12.x
